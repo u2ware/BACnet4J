@@ -1,3 +1,33 @@
+=============================================================================
+Add the following snippet to any project's pom that depends on your project:
+
+	<repositories>
+	    <repository>
+	        <id>bacnet4j-mvn-repo</id>
+	        <url>https://raw.github.com/u2ware/BACnet4j/mvn-repo/</url>
+	    </repository>
+	</repositories>
+
+	<dependencies>
+  		<dependency>
+  			<groupId>com.serotonin</groupId>
+  			<artifactId>bacnet4j</artifactId>
+  			<version>3.1.1</version>
+	  	</dependency>
+	</dependencies>
+
+reference: 
+	https://github.com/github/maven-plugins
+	http://stackoverflow.com/questions/14013644/hosting-a-maven-repository-on-github
+
+enjoy!!!
+=============================================================================
+
+
+
+
+
+=======================================================
 BACnet4J is a pure Java implementation of the BACnet specification. Originally developed for supervisory use, it now
 includes support for many objects and so may be suitable for embedded use as well. Protocols supported include IPv4, 
 IPv6, and MS/TP.
